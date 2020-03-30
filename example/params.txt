@@ -1,0 +1,39 @@
+sample_region_radius        = 16
+grid_cell_len               = 0.2
+solid_angle_lower_bound     = 0.75
+solid_angle_upper_bound     = 1.05
+solid_volume_min_radius     = 4
+
+#overlap_upper_bound        = 25
+bov_filter_selector         = 2
+#bov_filter_selector        = 1
+bov_inInner2A_CORE_upper_bound = 25
+#bov_filter_selector        = 2
+bov_inInner1A_upper_bound   = 80
+bov_inInner2A_upper_bound   = 5
+bov_inInner3A_upper_bound   = 0
+bov_inInner4A_upper_bound   = 0
+bov_inCore_upper_bound      = 0
+
+solid_volume_radius_selector    = 4
+matching_table_selector         = 15 
+distance_true_pair              = 2.8
+rmsd_true_pair                  = 2.5
+num_predicates                  = 6000
+num_threads                     = 1
+
+#data
+cb_suffix_Query     = _Query
+cb_suffix_DB        = _DB
+
+dir_table           = ./dir_table/
+dir_pdb_Query       = ./dir_PDB/
+dir_pdb_DB          = ./dir_PDB/
+dir_input_other     = ./dir_PDB/
+dir_interface_ca    = ./dir_PDB/
+dir_database_DB     = ./dir_database/
+dir_database_Query  = ./dir_database/
+dir_output          = ./dir_output/
+
+
+
