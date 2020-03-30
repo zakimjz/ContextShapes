@@ -1,2 +1,5 @@
 *.sql linguist-detectable=false
-*.gl linguist-detectable=false
+*.pdb linguist-detectable=false
+*.vert linguist-detectable=false
+*.face linguist-detectable=false
+*.xyzrn linguist-detectable=false
